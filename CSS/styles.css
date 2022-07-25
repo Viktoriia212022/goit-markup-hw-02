@@ -58,11 +58,10 @@ ul{
     color: #2196F3;
  }
  
- .header-tel .item,
- .footer-tel .item{
+ .header-tel .item{
     font-style: normal;
     text-decoration: none;
-    color: var(--primary-teхt-color)
+    color: var(--primary-teхt-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -186,6 +185,15 @@ h2{
     color: var(--title-white-color);
  }
 
+ .footer-tel .item{
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+ }
+
+
  /* ---Foto--- */
  .foto .title {
      font-size: 18px;
@@ -200,5 +208,6 @@ h2{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
+    color: var(--primary-teхt-color);
        
  }
